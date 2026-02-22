@@ -15,16 +15,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <main>
-      <h1 class="coral-pixels-regular">The Odin Project Challenge</h1>
-      <p>Start coding here 🚀</p>
+      <section class="half-screen-left">
+        <div class="logo">
+          <h1 class="honk">
+            <span> <ion-icon name="rocket-sharp"></ion-icon> </span>Space Cadet
+          </h1>
+        </div>
+
+        <p>Photo by NASA on unsplash</p>
+      </section>
+      <section class="half-screen-right">
+        <div class="top-box">
+         <p>This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p></strong>
+           
+        </div>
+
+        <form class="form-container" action="">
+          <fieldset>
+            <label for="first_name">FIRST NAME:</label>
+            <input type="text" id="first_name" placeholder="" />
+
+            <label for="last_name">LAST NAME:</label>
+            <input type="text" id="last_name" placeholder="" />
+          </fieldset>
+          <fieldset>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" placeholder="" />
+            <label for="phone">PHONE NUMBER:</label>
+            <input type="phone" id="phone" placeholder="" />
+          </fieldset>
+          <fieldset>
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" placeholder="" />
+            <label for="confirm_password">CONFIRM PASSWORD:</label>
+            <input type="password" id="confirm_password" placeholder="" />
+          </fieldset>
+        </form>
+        <button>Create Account</button>
+        <p>Already have an account? Log in</p>
+      </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

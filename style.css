@@ -101,7 +101,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 1.5;
 }
 ol,
 ul {
@@ -124,9 +124,60 @@ table {
 }
 html {
   box-sizing: border-box;
+  background-image: url(/assets/image/space-background.jpg);
+  background-size: cover;
 }
-.coral-pixels-regular {
-  font-family: "Coral Pixels", serif;
+
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 100;
+  font-size: 4rem;
+  display: inline-flex;
+}
+
+main {
+  display: flex;
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0.476);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+.half-screen-right {
+  width: 60vw;
+  height: 100vh;
+  background-color: rgba(248, 250, 251, 0.938);
+  padding: 2rem;
+}
+.half-screen-left {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: grid;
+  padding: 2rem;
+  background-color: rgba(250, 248, 245, 0.988);
+}
+
+.form-container fieldset {
+  display: grid;
+}
+.top-box {
+  height: 200px;
+  /* background-color: rgb(235, 224, 211); */
+  font-weight: 700;
+  padding: 1.5rem;
+  font-size: x-large;
 }
