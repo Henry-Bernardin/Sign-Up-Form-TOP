@@ -156,6 +156,7 @@ main {
   height: 100vh;
   background-color: rgba(248, 250, 251, 0.938);
   padding: 2rem;
+  overflow-y: auto;
 }
 .half-screen-left {
   width: 40vw;
@@ -175,9 +176,9 @@ main {
   display: grid;
 }
 .top-box {
-  height: 200px;
+  min-height: 200px;
   /* background-color: rgb(235, 224, 211); */
   font-weight: 700;
   padding: 1.5rem;
-  font-size: x-large;
+  font-size: clamp(1rem, 2vw, 1.5rem);
 }
